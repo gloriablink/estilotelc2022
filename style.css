@@ -190,6 +190,12 @@ html body:not(.edit),
     font-size: var(--MainText);
 }
 
+.btn-primary, .btn-primary.disabled, .btn-primary.disabled:hover, .btn-primary.disabled:focus {
+    color: #fff;
+    background-color: var(--colorppal);
+    border-color: transparent;
+    opacity: 1;
+}
 
 	.cke_contents  table {
 		margin-bottom: 10px;
