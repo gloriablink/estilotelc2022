@@ -197,6 +197,11 @@ html body:not(.edit),
     opacity: 1;
 }
 
+#indice .units ul li.active:not(.disabled), body:not(.isTablet) #indice .units ul li:hover:not(.disabled), #indice .units ul li:focus:not(.disabled) {
+    background: var(--colorppal);
+}
+
+
 	.cke_contents  table {
 		margin-bottom: 10px;
 	}
