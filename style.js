@@ -1,32 +1,3 @@
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@gloriablink 
-gloriablink
-/
-estilotelc2022
-Public
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-Settings
-estilotelc2022/style.js /
-@gloriablink
-gloriablink Update style.js
-Latest commit 17fe1d4 20 minutes ago
- History
- 1 contributor
-140 lines (112 sloc)  4.57 KB
-   
 (function (blink) {
 	'use strict';
 
@@ -44,9 +15,9 @@ Latest commit 17fe1d4 20 minutes ago
 		ckEditorStyles: {
 			name: 'estilotelc2022',
 			styles: [
-				{ name: 'Título 1', element: 'h4', attributes: { 'class': 'bck-title1'} },
-				{ name: 'Título 2', element: 'h4', attributes: { 'class': 'bck-title2'} },
-				{ name: 'Título 3', element: 'h4', attributes: { 'class': 'bck-title3'} },
+				{ name: 'Título 1', element: 'h4', attributes: { 'class': 'bck-title-1'} },
+				{ name: 'Título 2', element: 'h4', attributes: { 'class': 'bck-title-2'} },
+				{ name: 'Título 3', element: 'h4', attributes: { 'class': 'bck-title-3'} },
 
 				{ name: 'Default', element: 'ol', attributes: { 'class': 'bck-ol' } },
 				{ name: 'Default', element: 'ul', attributes: { 'class': 'bck-ul' } },
@@ -164,18 +135,6 @@ $(document).ready(function () {
 		})
 		.each(function () {
 			var $header = $(this).find('h3');
-			$header.length && $header.html($header.html().replace(' ', ''));
+			$header.length && $header.html($header.html().replace(' ', ''));
 		});
 });
-© 2022 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
