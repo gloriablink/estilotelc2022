@@ -1,19 +1,19 @@
 (function (blink) {
 	'use strict';
 
-	var PublisherStyle = function () {
+	var estilotelc2022Style = function () {
 			blink.theme.styles.basic.apply(this, arguments);
 		},
 		page = blink.currentPage;
 
-	PublisherStyle.prototype = {
+	estilotelc2022Style.prototype = {
 		//BK-15873 añadimos el estilo basic como parent para la herencia de los estilos del CKEditor
 		parent: blink.theme.styles.basic.prototype,
-		bodyClassName: 'content_type_clase_publisher',
+		bodyClassName: 'content_type_clase_estilotelc2022',
 		extraPlugins: ['image2'],
 		customColors: '8cc63f,2abb9c,c2615b,ff3f21,983220',
 		ckEditorStyles: {
-			name: 'publisher',
+			name: 'estilotelc2022',
 			styles: [
 				{ name: 'Título 1', element: 'h4', attributes: { 'class': 'bck-title1'} },
 				{ name: 'Título 2', element: 'h4', attributes: { 'class': 'bck-title2'} },
@@ -91,7 +91,7 @@
 					'</div>';
 
 			$navbarBottom
-				.attr('class', 'publisher-navbar')
+				.attr('class', 'estilotelc2022-navbar')
 				.wrapInner('<div class="navbar-content"></div>')
 				.find('ol')
 					.before(dropDown)
@@ -115,9 +115,9 @@
 		//BK-15873 Quitamos la funcion getEditorStyles para que la herede de basic
 	};
 
-	PublisherStyle.prototype = _.extend({}, new blink.theme.styles.basic(), PublisherStyle.prototype);
+	estilotelc2022Style.prototype = _.extend({}, new blink.theme.styles.basic(), estilotelc2022Style.prototype);
 
-	blink.theme.styles.publisher = PublisherStyle;
+	blink.theme.styles.estilotelc2022 = estilotelc2022Style;
 
 })( blink );
 
