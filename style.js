@@ -15,27 +15,27 @@
 		ckEditorStyles: {
 			name: 'estilotelc2022',
 			styles: [
-                { name: 'Título 1', element: 'h3', attributes: { 'class': 'bck-title bck-title-1'} },
-				{ name: 'Título 2', element: 'h3', attributes: { 'class': 'bck-title bck-title-2'} },
-				{ name: 'Título 3', element: 'h3', attributes: { 'class': 'bck-title bck-title-3'} },
-				{ name: 'Título 4', element: 'h3', attributes: { 'class': 'bck-title bck-title-4'} },
+                { name: 'Title 1', element: 'h3', attributes: { 'class': 'bck-title bck-title-1'} },
+				{ name: 'Title 2', element: 'h3', attributes: { 'class': 'bck-title bck-title-2'} },
+				{ name: 'Title 3', element: 'h3', attributes: { 'class': 'bck-title bck-title-3'} },
+				{ name: 'Title 4', element: 'h3', attributes: { 'class': 'bck-title bck-title-4'} },
 
-                { name: 'Énfasis-01', element: 'span', attributes: { 'class': 'bck-enfasis-1'} },
-				{ name: 'Énfasis-02', element: 'span', attributes: { 'class': 'bck-enfasis-2'} },
-				{ name: 'Énfasis-03', element: 'span', attributes: { 'class': 'bck-enfasis-3'} },
-				{ name: 'Énfasis-04', element: 'span', attributes: { 'class': 'bck-enfasis-4'} },
+                { name: 'Emphasis 1', element: 'span', attributes: { 'class': 'bck-enfasis-1'} },
+				{ name: 'Emphasis 2', element: 'span', attributes: { 'class': 'bck-enfasis-2'} },
+				{ name: 'Emphasis 3', element: 'span', attributes: { 'class': 'bck-enfasis-3'} },
+				{ name: 'Emphasis 4', element: 'span', attributes: { 'class': 'bck-enfasis-4'} },
 
-				{ name: 'Lista Ordenada 1', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-1' } },
-				{ name: 'Lista Ordenada 2', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-2' } },
+				{ name: 'Ordered list 1', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-1' } },
+				{ name: 'Ordered list 2', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-2' } },
 
-				{ name: 'Lista Desordenada 1', element: 'ul', attributes: { 'class': 'bck-ul bck-ul-1' } },
-				{ name: 'Lista Desordenada 2', element: 'ul', attributes: { 'class': 'bck-ul bck-ul-2' } },
+				{ name: 'Unordered list 1', element: 'ul', attributes: { 'class': 'bck-ul bck-ul-1' } },
+				{ name: 'Unordered list 2', element: 'ul', attributes: { 'class': 'bck-ul bck-ul-2' } },
 
-				{ name: 'Caja 01', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-1' } },
-				{ name: 'Caja 02', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-2' } },
-				{ name: 'Caja 03', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-3' } },		
+				{ name: 'Box 1', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-1' } },
+				{ name: 'Box 2', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-2' } },
+				{ name: 'Box 3', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-3' } },		
 				
-				{ name: 'Desplegable 1', type: 'widget', widget: 'blink_dropdown', attributes: { 'class': 'bck-dropdown bck-dropdown-1' } },	
+				{ name: 'Dropdown 1', type: 'widget', widget: 'blink_dropdown', attributes: { 'class': 'bck-dropdown bck-dropdown-1' } },	
 
 
 				//BK-15873 Quitamos el estilo versalitas, ya que lo hereda de basic
