@@ -242,6 +242,16 @@ html body:not(.edit),
 		visibility: hidden;
 	}
 
+	#indice .units ul li a .title {
+    font-size: 18px;
+    font-weight: 700;
+    color: #666;
+    margin: -21px 0 0 35px;
+    line-height: 18px;
+    display: block;
+    padding-bottom: 7px;
+}
+
 	#actividad .content .header {
 		border: none;
 	}
