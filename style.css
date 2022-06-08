@@ -254,7 +254,7 @@ html body:not(.edit),
 
     #indice .units ul li a:not(.delete) {
     display: block;
-    padding: 6px 16px;
+    padding: 4px 16px;
 }
 
 	#actividad .content .header {
