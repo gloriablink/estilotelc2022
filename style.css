@@ -1,4 +1,196 @@
 /* General */
+:root {
+
+    --textcolor: 0, 0, 0;
+    --colorppal: #007133;
+
+    --error-color: 244, 6, 6 /*#F40606*/;
+    --ok-color: 0, 134, 5F6 /*#008638*/;
+    --solution-color: 148, 232, 234 /*94E8EA*/;
+
+    --MainFont: 'Source Sans Pro', sans-serif; /*Aqui puedes poner la tipografía del libro*/
+    --MainText: 1.8rem; /*Aquí cambias el tamaño del texto*/
+    --MainLineHeight: 2.9rem; /*Aquí se cambia el interlineado*/
+}
+
+html body:not(.edit),
+ body.edit .navbar.libro {
+    line-height: var(--MainLineHeight);
+    font-size: var(--MainText);
+    font-family: var(--MainFont)
+}
+
+
+/*Para estandarizar que el texto dentro de estos elementos tengan el mismo tamaño*/
+
+/*Flipbox*/
+#actividad .bck-flipbox {
+    line-height: var(--MainLineHeight);
+    font-size: var(--MainText);
+}
+#actividad .bck-flipbox .bck-flipbox-face {
+    font-size: var(--MainText);
+    line-height: var(--MainLineHeight);
+}
+
+/*TABS*/
+#actividad .bck-tabs-box .bck-tabslists .bck-tabtitles {
+    font-size: var(--MainText);
+}
+
+/*Tablas*/
+#actividad div:not(.calculo) > table:not(.rf-tablegrid):not(.puzzle) {
+    font-size: var(--MainText);
+}
+
+/*Opciones a arrastrar en rellenar huecos con "Respuestas visibles" activado*/
+.fillblanks-draggable-wrapper .response p {
+    font-size: var(--MainText);
+}
+/*Tamaño de las opciones en verdadero y falso*/
+.workspace.true-false .radio-option input.filter-radio[type="radio"]+label.filter-label {
+    font-size: var(--MainText);
+}
+/*Tamaño en plantilla de clasificar*/
+#actividad .workspace.clasificar {
+    font-size: var(--MainText);
+    line-height: var(--MainLineHeight);
+}
+/*Tamaño en plantilla Test*/
+.test .checkbox-option label.filter-label {
+    font-size: var(--MainText);
+}
+.checkbox-option label.filter-label,
+ .checkbox-option label.filter-label-append,
+  .radio-option label.filter-label {
+    font-size: var(--MainText);
+}
+/*Palabras cruzadas*/
+.slide.crosswords {
+    font-size: var(--MainText);
+}
+.slide.crosswords .respuestas .respuesta {
+    line-height: var(--MainLineHeight);
+}
+.slide.crosswords .indice {
+    font-size: var(--MainText);
+    line-height: var(--MainLineHeight);
+}
+.slide.crosswords .enunciados .enunciado {
+    font-size: var(--MainText);
+}
+
+/*------ Crucigrama ----*/
+.slide.crosswords-puzzle .enunciados {
+    line-height: var(--MainLineHeight);
+}
+.slide.crosswords-puzzle .enunciado {
+    font-size: var(--MainText);
+    line-height: var(--MainLineHeight);
+}
+
+/*Estas son reglas para la  separación entre todos los elementos Separación de 20px entre todos, menos para el último párrafo existente*/
+#actividad .texto_curso p p:last-child {
+    margin-bottom: 0;
+}
+/*Cajas*/.bck-box {
+    position: relative;
+    margin-bottom: 20px;
+}
+/*Grids*/ .bck-row.row   { 
+    margin-bottom: 20px;
+}
+/*Desplegables*/ #actividad .bck-dropdown {
+    margin-bottom: 20px;
+}
+/*Flipbox*/ #actividad .bck-flipbox {
+    margin-bottom: 20px;
+}
+/*Popup Boton*/ #actividad .info-button {
+    margin-bottom: 20px;
+}
+/*Tablas*/ #actividad div:not(.calculo) > table:not(.rf-tablegrid):not(.puzzle) {
+    margin-bottom: 20px;
+}
+
+/*---*/
+/*GRIDS - Para que no haya espacio a la izquierda*/
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+    padding-left: 0;
+}
+
+/*---*/
+/* Esto elimina el padding de la plantilla "Rellenar espacios" con la opción "Marco", que viene marcada por defecto*/
+.workspace.frame {
+    padding: 0;
+}
+
+/*Estilo de la solución en "Respuestas cortas" no autoevaluables que viene sin estilo por defecto*/
+.hint.solucion.decoding {
+    color: #00BDFF;
+}
+/*Ajustes en la plantilla de Marcar palabras para que no se descuadren las listas en esta plantilla*/
+#actividad .markwords-word {
+    line-height: var(--MainLineHeight) !important;
+}
+
+#actividad .markword-active,
+#actividad .markword-correct,
+#actividad .markword-false,
+#actividad .markword-solution {
+    line-height: var(--MainLineHeight) !important;
+    padding: 0 4px !important;
+    border: 0 !important;
+    outline: 2px solid rgb(35,31, 32) !important;
+    border-radius: 5px !important;
+    color: rgb(35,31, 32) !important;
+}
+#actividad .markword-correct {
+    outline-color: #57e900 !important;
+}
+#actividad .markword-false {
+    outline-color: #ff3626 !important;
+}
+#actividad .markword-solution {
+    outline-color: transparent !important;
+}
+/*Ajustes en clasificar*/
+#actividad .workspace.clasificar .clasificar_lista .classify-item {
+    padding: 5px;
+}
+#actividad .workspace.clasificar .clasificar_lista li>p {
+    top: 0;
+    transform: none;
+}
+
+/*Ajustes sopa de letras*/
+.rf-tgrid {
+    height: 30px;
+    width: 30px;
+    font-family: var(--MainFont);
+    font-weight: normal;
+    font-size: var(--MainText);
+}
+.rf-foundword {
+    font-family: var(--MainFont);
+    font-size: var(--MainText);
+}
+.rf-wordcontainer li .index {
+    font-size: var(--MainText);
+    line-height: var(--MainLineHeight);
+    font-family: var(--MainFont);
+}
+.rf-tablestyle {
+    border: 3px solid;
+    border-color: #CCCCCC;
+}
+.rf-wordcontainer {
+    border: 0;
+    font-family: var(--MainFont);
+    font-size: var(--MainText);
+}
+
+
 	.cke_contents  table {
 		margin-bottom: 10px;
 	}
@@ -87,10 +279,32 @@
 		font-size: 1.9rem;
 	}
 
+	#actividad .workspace {
+        font-size: var(--MainText);
+        line-height: var(--MainLineHeight);
+    }
+
 	#actividad .texto_curso li,
 	#actividad .workspace ul li li {
 		margin-bottom: 10px;
 	}
+
+    #actividad .texto_curso,
+     #actividad .texto_curso p {
+     font-size: var(--MainText);
+     line-height: var(--MainLineHeight) !important;
+    }
+
+    #actividad .pregunta .texto_curso {
+    font-size: var(--MainText);
+    line-height: var(--MainLineHeight);
+    }
+
+    #actividad .slide_content_type_1 .pregunta .texto_curso,
+    #actividad .texto_curso,
+    .html-book {
+        font-size: var(--MainText);
+    }
 
 	#actividad .class_slide {
     	padding: 40px 97px 0px;
@@ -359,6 +573,10 @@
 		text-overflow: ellipsis;
 		white-space: nowrap;
 	}
+
+	.form-control {
+        font-size: var(--MainText);
+    }
 
 	.navigator .slider-control.left,
 	.navigator .slider-control.right {
