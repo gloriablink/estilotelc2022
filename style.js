@@ -27,8 +27,8 @@
 
 				{ name: 'Ordered list 1 MC', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-1' } },
 				{ name: 'Ordered list 2', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-2' } },
-				{ name: 'Ordered list 3 MC', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-2' } },
-				{ name: 'Ordered list 4', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-2' } },
+				{ name: 'Ordered list 3 MC', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-3' } },
+				{ name: 'Ordered list 4', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-4' } },
 
 				{ name: 'Unordered list 1', element: 'ul', attributes: { 'class': 'bck-ul bck-ul-1' } },
 				{ name: 'Unordered list 2', element: 'ul', attributes: { 'class': 'bck-ul bck-ul-2' } },
