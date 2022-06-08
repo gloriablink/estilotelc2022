@@ -252,6 +252,11 @@ html body:not(.edit),
     padding-bottom: 7px;
 }
 
+    #indice .units ul li a:not(.delete) {
+    display: block;
+    padding: 6px 16px;
+}
+
 	#actividad .content .header {
 		border: none;
 	}
