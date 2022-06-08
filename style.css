@@ -242,6 +242,23 @@ html body:not(.edit),
 		visibility: hidden;
 	}
 
+	#indice .unit-content {
+    background-color: #fff;
+    overflow: hidden;
+    margin-bottom: 40px;
+    border-radius: 40px 0 0;
+}
+
+    #indice .unit-content .header {
+    height: 145px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+    border-radius: 40px 0 0 0;
+}
+
 	#indice .units ul li a .title {
     font-size: 18px;
     font-weight: 700;
