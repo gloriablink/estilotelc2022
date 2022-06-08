@@ -171,7 +171,7 @@
 /**/
 
 /* Navbar (Breadcums) */
-	.publisher-navbar {
+	.estilotelc2022-navbar {
 		position: fixed;
 		top: 44px;
 		background-color: #CFCFCF;
@@ -180,7 +180,7 @@
 		z-index: 100;
 	}
 
-	.is_app .publisher-navbar {
+	.is_app .estilotelc2022-navbar {
 		position: sticky;
 		top: 0px;
 	}
@@ -205,7 +205,7 @@
 		text-indent: 0;
 	}
 
-	.publisher-navbar .navbar-content {
+	.estilotelc2022-navbar .navbar-content {
 		max-width: 960px;
 		margin: 0 auto;
 		padding-left: 90px;
@@ -223,7 +223,7 @@
 		float: left;
 	}
 
-	.publisher-navbar .slider-indicators {
+	.estilotelc2022-navbar .slider-indicators {
 		padding: 3px 0px;
 		display: inline-block;
 		text-align: left;
@@ -238,8 +238,8 @@
 		padding-top: 10px;
 	}
 
-	.publisher-navbar .dropdown button,
-	.publisher-navbar li {
+	.estilotelc2022-navbar .dropdown button,
+	.estilotelc2022-navbar li {
 		border-radius: 5px;
 		border: none;
 		background-color: white;
@@ -262,13 +262,13 @@
 	}
 
 	.slider-indicators li.active,
-	.publisher-navbar li:hover,
-	.publisher-navbar .dropdown button:hover {
+	.estilotelc2022-navbar li:hover,
+	.estilotelc2022-navbar .dropdown button:hover {
 		background-color: #FF3F21;
 		color: #FFF;
 	}
 
-	.publisher-navbar .dropdown button {
+	.estilotelc2022-navbar .dropdown button {
 		width: auto;
 		padding: 0px 10px;
 	}
@@ -280,7 +280,7 @@
 
 
 
-	.publisher-navbar .dropdown {
+	.estilotelc2022-navbar .dropdown {
 		display: block;
 		float: left;
 		margin-top: 10px;
@@ -292,29 +292,29 @@
 		overflow-y: auto;
 	}
 
-	.publisher-navbar .dropdown button {
+	.estilotelc2022-navbar .dropdown button {
 		border: none;
 	}
 
-	.publisher-navbar .dropdown button:focus {
+	.estilotelc2022-navbar .dropdown button:focus {
 		outline: none;
 	}
 
-	.publisher-navbar .dropdown li {
+	.estilotelc2022-navbar .dropdown li {
 		display: list-item;
 		width: auto;
 	}
 
-	.publisher-navbar .dropdown li a {
+	.estilotelc2022-navbar .dropdown li a {
 		color: #FF3F21;
 		font-weight: bold;
 	}
 
-	.publisher-navbar .dropdown .caret {
+	.estilotelc2022-navbar .dropdown .caret {
 		border-color: #FF3F21 transparent transparent transparent;
 	}
 
-	.publisher-navbar .dropdown:hover .caret {
+	.estilotelc2022-navbar .dropdown:hover .caret {
 		border-color: #FFF transparent transparent transparent;
 	}
 /**/
@@ -560,9 +560,9 @@
 
 /* TMPUX STYLES */
 
-.tmpux.modo_revision .publisher-navbar, 
-.tmpux.modo-correccion .publisher-navbar,
-.tmpux.modo-deber .publisher-navbar{
+.tmpux.modo_revision .estilotelc2022-navbar, 
+.tmpux.modo-correccion .estilotelc2022-navbar,
+.tmpux.modo-deber .estilotelc2022-navbar{
     top: 0px;
 }
 
