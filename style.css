@@ -270,6 +270,18 @@ html body:not(.edit),
     border-radius: 40px 0 0 0;
 }
 
+    #indice .unit-content .actividades .item .acceso:before {
+    display: block;
+    top: 6px;
+    left: 8px;
+}
+
+    #indice .unit-content .material .item .acceso:before {
+    display: inline-block;
+    margin-top: 3px;
+    margin-left: 1.7em;
+}
+
 	#indice .units ul li a .title {
     font-size: 16px;
     font-weight: 700;
