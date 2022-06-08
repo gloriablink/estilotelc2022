@@ -22,6 +22,8 @@
 				{ name: 'Default', element: 'ol', attributes: { 'class': 'bck-ol' } },
 				{ name: 'Default', element: 'ul', attributes: { 'class': 'bck-ul' } },
 
+				{ name: 'Lista ordenada 1', element: 'ol', attributes: { 'class': 'bck-ol-1' } },
+
 				//BK-15873 Quitamos el estilo versalitas, ya que lo hereda de basic
 
 				{ name: 'Imagen derecha', element: 'img', attributes: { 'class': 'bck-img right' } },
