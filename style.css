@@ -751,7 +751,12 @@ html body:not(.edit),
 	/*---------------Listas ordenadas---------------*/
 	.content .bck-ol-1 li:before {
     color: #414141;
-}
+    }
+
+    .content .bck-ol-2 li:before {
+    color: var(--colorppal);
+    }
+    
 
 	/*---------------Énfasis------------*/
 	.bck-enfasis-1 {
