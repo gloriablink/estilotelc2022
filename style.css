@@ -713,6 +713,13 @@ html body:not(.edit),
         text-decoration: underline;
 }
 
+   .bck-title-4 {
+        color: var(--colorppal);
+        font-size: 2.2rem;
+        font-weight: bold;
+        text-decoration: underline;
+}
+
 	.bck-header {
 		font-size: 2.8rem;
 		font-weight: bold;
