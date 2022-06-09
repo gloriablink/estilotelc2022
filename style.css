@@ -756,6 +756,11 @@ html body:not(.edit),
     font-style: italic;
     }
 
+    .bck-enfasis-3 {
+    color: #6EAB38;
+    font-weight: 800;
+}
+
 
 	.bck-img.right,
 	img[style~="float:right"] {
