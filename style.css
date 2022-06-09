@@ -747,6 +747,11 @@ html body:not(.edit),
 		margin-top: -2px;
 	}
 
+	/*---------------Énfasis------------*/
+	.bck-enfasis-1 {
+    font-weight: 800;
+    }
+
 	.bck-img.right,
 	img[style~="float:right"] {
 		margin-left: 20px;
