@@ -752,6 +752,11 @@ html body:not(.edit),
     font-weight: 800;
     }
 
+    .bck-enfasis-2 {
+    font-style: italic;
+    }
+
+
 	.bck-img.right,
 	img[style~="float:right"] {
 		margin-left: 20px;
