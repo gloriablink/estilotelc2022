@@ -24,6 +24,7 @@
 				{ name: 'Emphasis 2', element: 'span', attributes: { 'class': 'bck-enfasis-2'} },
 				{ name: 'Emphasis 3', element: 'span', attributes: { 'class': 'bck-enfasis-3'} },
 				{ name: 'Emphasis 4', element: 'span', attributes: { 'class': 'bck-enfasis-4'} },
+				{ name: 'Emphasis 5', element: 'span', attributes: { 'class': 'bck-enfasis-5'} },
 
 				{ name: 'Ordered list 1', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-1' } },
 				{ name: 'Ordered list 2', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-2' } },
