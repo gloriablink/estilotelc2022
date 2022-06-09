@@ -759,7 +759,17 @@ html body:not(.edit),
     .bck-enfasis-3 {
     color: #6EAB38;
     font-weight: 800;
-}
+    }
+
+    .bck-enfasis-4 {
+    text-decoration: underline;
+    }
+
+    .bck-enfasis-5 {
+    color: var(--colorppal);
+    font-weight: 800;
+    }
+
 
 
 	.bck-img.right,
