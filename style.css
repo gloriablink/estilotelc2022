@@ -302,11 +302,16 @@ html body:not(.edit),
 	}
 
 	#actividad .content .header .title h3 {
-		font-size: 3.4rem;
-		margin-top: 0px;
-		font-weight: bold;
-		display: block;
-		margin-top: 35px;
+    font-size: 3.4rem;
+    color: white;
+    margin-top: 0px;
+    font-weight: bold;
+    display: block;
+    margin-top: 35px;
+    background-color: var(--colorppal);
+    position: relative;
+    margin-left: -97px;
+    padding: 15px 15px 15px 97px
 	}
 
 	#actividad .content .header .title h3 .competencias {
