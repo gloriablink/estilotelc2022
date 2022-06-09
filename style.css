@@ -756,7 +756,13 @@ html body:not(.edit),
     .content .bck-ol-2 li:before {
     color: var(--colorppal);
     }
-    
+
+    .content .bck-ol-3 li:before {
+    content: counter(bck-li-counter, lower-alpha) ".";
+    font-size: 19px;
+    color: #414141;
+    }
+
 
 	/*---------------Énfasis------------*/
 	.bck-enfasis-1 {
