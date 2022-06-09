@@ -307,7 +307,7 @@ html body:not(.edit),
     margin-top: 0px;
     font-weight: bold;
     display: block;
-    margin-top: 35px;
+    margin-top: 0px;
     background-color: var(--colorppal);
     position: relative;
     margin-left: -97px;
