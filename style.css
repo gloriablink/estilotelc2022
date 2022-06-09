@@ -747,6 +747,12 @@ html body:not(.edit),
     margin-top: 0px;
 	}
 
+
+	/*---------------Listas ordenadas---------------*/
+	.content .bck-ol-1 li:before {
+    color: #414141;
+}
+
 	/*---------------Énfasis------------*/
 	.bck-enfasis-1 {
     font-weight: 800;
