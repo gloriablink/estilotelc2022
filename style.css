@@ -770,6 +770,20 @@ html body:not(.edit),
     }
 
 
+    /*---------------Listas desordenadas---------------*/
+
+    .texto_curso ul li:before {
+    content: "";
+    height: 7px;
+    width: 7px;
+    background-color: #3ac62a;
+    position: absolute;
+    border-radius: 100%;
+    margin-top: 0.6em;
+    margin-left: -29px;
+    }
+
+
 	/*---------------Énfasis------------*/
 	.bck-enfasis-1 {
     font-weight: 800;
