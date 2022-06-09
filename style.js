@@ -32,6 +32,7 @@
 				{ name: 'Ordered list 4', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-4' } },
 
 				{ name: 'Unordered list 1', element: 'ul', attributes: { 'class': 'bck-ul bck-ul-1' } },
+				{ name: 'Unordered list 2', element: 'ul', attributes: { 'class': 'bck-ul bck-ul-2' } },
 
 				{ name: 'Box 1', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-1' } },
 				{ name: 'Box 2', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-2' } },
