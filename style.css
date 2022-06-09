@@ -763,6 +763,12 @@ html body:not(.edit),
     color: #414141;
     }
 
+    .content .bck-ol-4 li:before {
+    content: counter(bck-li-counter, lower-alpha) ".";
+    font-size: 19px;
+    color: var(--colorppal);
+    }
+
 
 	/*---------------Énfasis------------*/
 	.bck-enfasis-1 {
