@@ -846,6 +846,16 @@ html body:not(.edit),
 		float: right;
 		margin-left: 25px;
 	}
+
+
+a:hover, a:active, a:focus {
+    outline: 0;
+    color: #999;
+    text-decoration: none;
+}
+
+
+	
 /**/
 
 @media screen and (max-width: 1099px) {
