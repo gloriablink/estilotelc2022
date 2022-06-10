@@ -816,7 +816,7 @@ html body:not(.edit),
 
     /*----------------Cajas----------------*/
 
-    #actividad .bck-box.bck-box-1 {
+   .bck-box.bck-box-1 {
     background-color: #d3e3d3;
     border: 4px solid #007133;
     border-radius: 15px;
