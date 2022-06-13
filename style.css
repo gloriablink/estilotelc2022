@@ -833,7 +833,11 @@ html body:not(.edit),
     border: 4px dashed var(--colorppal);
 }
 
-
+   .bck-box.bck-box-2 .bck-title p {
+    font-size: 25px !important;
+    color: #414141;
+    padding-bottom: 10px;
+}
 
 
 	.bck-img.right,
