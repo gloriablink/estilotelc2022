@@ -840,6 +840,19 @@ html body:not(.edit),
 }
 
 
+    .bck-box.bck-box-3 {
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 0 0 30px 0 rgb(0 0 0 / 10%);
+}
+
+
+
+
+
+
+
+
 	.bck-img.right,
 	img[style~="float:right"] {
 		margin-left: 20px;
