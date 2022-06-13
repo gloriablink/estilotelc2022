@@ -795,6 +795,7 @@ html body:not(.edit),
 
     .texto_curso ul.bck-ul-2 li:before {
     background-color: var(--colorppal);
+    border-radius: 0;
     } 
 
 
