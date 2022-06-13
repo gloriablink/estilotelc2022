@@ -829,6 +829,11 @@ html body:not(.edit),
 }
 
 
+   .bck-box.bck-box-2 {
+    border: 4px dashed var(--colorppal);
+}
+
+
 
 
 	.bck-img.right,
