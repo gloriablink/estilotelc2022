@@ -850,6 +850,7 @@ html body:not(.edit),
     margin-top: -20px;
     margin-left: -20px;
     margin-right: -20px;
+    margin-bottom: 10px;
     border-radius: 10px 10px 0 0;
     padding: 14px 20px 10px;
     color: #f5f5f5;
