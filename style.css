@@ -789,6 +789,14 @@ html body:not(.edit),
     margin-left: -29px;
     }
 
+    .texto_curso ul.bck-ul-1 li:before {
+    background-color: black;
+    }
+
+    .texto_curso ul.bck-ul-2 li:before {
+    background-color: var(--colorppal);
+    } 
+
 
 	/*---------------Énfasis------------*/
 	.bck-enfasis-1 {
