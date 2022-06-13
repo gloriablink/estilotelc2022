@@ -822,8 +822,10 @@ html body:not(.edit),
     border-radius: 15px;
 }
 
-   .bck-box.bck-box-1 .bck-title p{
-    font-size: 40px;
+   .bck-box.bck-box-1 .bck-title p {
+    font-size: 25px !important;
+    color: #007133;
+    padding-bottom: 10px;
 }
 
 
