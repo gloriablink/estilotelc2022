@@ -518,7 +518,7 @@ html body:not(.edit),
 		border-radius: 5px;
 		border: none;
 		background-color: white;
-		color: #FF3F21;
+		color: #414141;
 		vertical-align: middle;
 		margin: 0px 5px;
 		text-indent: 0px;
@@ -581,12 +581,12 @@ html body:not(.edit),
 	}
 
 	.estilotelc2022-navbar .dropdown li a {
-		color: #FF3F21;
+		color: #414141;
 		font-weight: bold;
 	}
 
 	.estilotelc2022-navbar .dropdown .caret {
-		border-color: #FF3F21 transparent transparent transparent;
+		border-color: #414141 transparent transparent transparent;
 	}
 
 	.estilotelc2022-navbar .dropdown:hover .caret {
