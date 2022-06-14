@@ -539,8 +539,8 @@ html body:not(.edit),
 	.slider-indicators li.active,
 	.estilotelc2022-navbar li:hover,
 	.estilotelc2022-navbar .dropdown button:hover {
-		background-color: #FF3F21;
-		color: #FFF;
+         background-color: var(--colorppal);
+         color: #FFF;
 	}
 
 	.estilotelc2022-navbar .dropdown button {
