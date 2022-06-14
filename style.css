@@ -933,6 +933,27 @@ a:hover, a:active, a:focus {
 }
 
 
+/*-----------Cambios en plantilla test------------*/
+
+#actividad .workspace.test .respuestas li {
+    width: 80%;
+    display: block;
+}
+
+@media screen and (max-width: 1023px){
+
+#actividad .workspace.test .respuestas li {
+    width: 80%;
+}
+
+
+}
+
+@media screen and (max-width: 520px) {
+#actividad .workspace.test .respuestas li {
+    width: 80%;
+}
+}
 
 /**/
 
