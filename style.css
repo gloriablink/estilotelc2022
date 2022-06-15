@@ -792,9 +792,13 @@ html body:not(.edit),
 /*----------Iconos---------*/
 #actividad .player.audio, #actividad .player.video, #help-panel-content .player, #remote-alert-modal-rich .player {
 
-    background-color: var(--colorppal);
+    background-color: #ffffff;
     background-image: url(images/iconoaudiotelcga1.png);
+    background-position: center;
+    background-size: 20px;
 }
+
+
 
 
 	/*---------------Listas ordenadas---------------*/
