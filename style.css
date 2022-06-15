@@ -1,4 +1,32 @@
 /* General */
+@font-face {
+    font-family: 'Fira Sans';
+    src: url('fonts/FiraSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Fira Sans';
+    src: url('fonts/FiraSans-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Fira Sans';
+    src: url('fonts/FiraSans-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Fira Sans';
+    src: url('fonts/FiraSans-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
 :root {
 
     --textcolor: 0, 0, 0;
