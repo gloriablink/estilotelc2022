@@ -169,7 +169,7 @@ html body:not(.edit),
     line-height: var(--MainLineHeight) !important;
     padding: 0 4px !important;
     border: 0 !important;
-    outline: 2px solid rgb(35,31, 32) !important;
+    outline: 2px solid rgb(237 210 98) !important;
     border-radius: 5px !important;
     color: rgb(35,31, 32) !important;
 }
