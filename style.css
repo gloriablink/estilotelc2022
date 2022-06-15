@@ -913,10 +913,7 @@ html body:not(.edit),
     max-height: 300px;
     padding: 10px;
     background-color: #f5f5f5;
-}
-
-.bck-dropdown-content p {
-    color: #6eab38;
+    color: #6eab38
 }
 
 
