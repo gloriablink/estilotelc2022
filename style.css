@@ -985,7 +985,7 @@ html body:not(.edit),
 
 
     /*-----Rellenar espacios-----*/
-    
+
 .fillblanks-draggable-wrapper .response {
     margin: 2px;
     min-width: 100px;
@@ -996,6 +996,15 @@ html body:not(.edit),
     border-radius: 15px;
     cursor: pointer;
 }
+
+
+    /*-----Verdadero/Falso-----*/
+
+#actividad .workspace.true-false .tf-option {
+    display: block;
+    margin-left: 20px;
+}
+    
 
 
 	.bck-img.right,
