@@ -941,6 +941,8 @@ html body:not(.edit),
 
     /*----------------Ajustes de la editorial en las actividades----------------*/
 
+    /*-----Respuesta multiple-----*/
+
 #actividad .workspace.multiple-choice .opcion {
     max-width: 100%;
     border-color: var(--colorppal);
@@ -951,6 +953,18 @@ html body:not(.edit),
     border-color: var(--colorppal);
     background-color: #d3e3d3;
 }
+
+
+    /*-----Ordenar-----*/
+
+#actividad .workspace.ordenar .js-rank-item {
+    border: 2px solid var(--colorppal);
+    margin-bottom: 5px;
+    cursor: pointer;
+    border-radius: 15px;
+    padding-left: 20px;
+}
+
 
 
 	.bck-img.right,
