@@ -789,6 +789,13 @@ html body:not(.edit),
     margin-top: 0px;
 	}
 
+/*----------Iconos---------*/
+#actividad .player.audio, #actividad .player.video, #help-panel-content .player, #remote-alert-modal-rich .player {
+
+    background-color: var(--colorppal);
+    background-image: url(images/iconoaudiotelcga1.png);
+}
+
 
 	/*---------------Listas ordenadas---------------*/
 	.content .bck-ol-1 li:before {
