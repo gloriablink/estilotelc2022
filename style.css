@@ -770,6 +770,7 @@ html body:not(.edit),
 
 	.content .bck-ol {
 		list-style-type: none;
+		margin-left: -16px;
 	}
 
 	.content .bck-ol li {
