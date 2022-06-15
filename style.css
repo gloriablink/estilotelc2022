@@ -970,6 +970,21 @@ html body:not(.edit),
 }
 
 
+    /*-----Relacionar-----*/
+
+#actividad .workspace.matching .opcion {
+    overflow: hidden;
+    min-height: 2.5em;
+    border-radius: 15px;
+    border: 2px solid #b1aaaa;
+    margin: 2px 0;
+    padding: 5px;
+    width: 100%;
+    float: left;
+}
+
+
+
 	.bck-img.right,
 	img[style~="float:right"] {
 		margin-left: 20px;
