@@ -849,6 +849,14 @@ html body:not(.edit),
     } 
 
 
+    /*-----------Tablas---------------*/
+
+    #actividad div:not(.calculo) > table:not(.rf-tablegrid):not(.puzzle) td {
+    padding: 12px;
+    border: 2px solid #c9bfbf;
+    }
+
+
 	/*---------------Énfasis------------*/
 	.bck-enfasis-1 {
     font-weight: 800;
