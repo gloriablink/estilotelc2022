@@ -965,6 +965,9 @@ html body:not(.edit),
     padding-left: 20px;
 }
 
+#actividad .workspace.ordenar .js-rank-item:hover {
+    background-color: #d3e3d3;
+}
 
 
 	.bck-img.right,
