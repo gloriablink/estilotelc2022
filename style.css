@@ -940,11 +940,16 @@ html body:not(.edit),
 
 
     /*----------------Ajustes de la editorial en las actividades----------------*/
-    
+
 #actividad .workspace.multiple-choice .opcion {
     max-width: 100%;
     border-color: var(--colorppal);
     border-radius: 15px;
+}
+
+#actividad .workspace.multiple-choice .opcion.respuesta_checked {
+    border-color: var(--colorppal);
+    background-color: #d3e3d3;
 }
 
 
