@@ -1004,7 +1004,32 @@ html body:not(.edit),
     display: block;
     margin-left: 20px;
 }
-    
+
+
+    /*-----Memory-----*/
+
+#actividad .workspace.memory .front {
+    z-index: 2;
+    width: 120px;
+    height: 140px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 2px solid #00bdff;
+    background: #fffurl(../../../images/slides/circulos.png) center center / 50px auto no-repeat;
+    transition: all .5s ease;
+}
+
+#actividad .workspace.memory .back {
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    z-index: 2;
+    width: 120px;
+    height: 140px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 2px solid #00bdff;
+    overflow: hidden;
+}
 
 
 	.bck-img.right,
