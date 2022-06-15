@@ -797,6 +797,8 @@ html body:not(.edit),
     background-position: center;
     background-size: 20px;
     vertical-align: top;
+    margin-left: -3px;
+}
 }
 
 
