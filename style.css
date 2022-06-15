@@ -780,13 +780,12 @@ html body:not(.edit),
 	.content .bck-ol li:before {
     content: counter(bck-li-counter);
     position: absolute;
-    margin-left: -40px;
-    font-family: Arial;
+    margin-left: -25px;
     text-align: right;
     color: #414141;
     font-weight: bold;
     font-size: larger;
-    margin-top: 0px;
+    margin-top: -1px;
 	}
 
 /*----------Iconos---------*/
