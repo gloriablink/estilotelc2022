@@ -36,7 +36,7 @@
     --ok-color: 0, 134, 5F6 /*#008638*/;
     --solution-color: 148, 232, 234 /*94E8EA*/;
 
-    --MainFont: 'Source Sans Pro', sans-serif; /*Aqui puedes poner la tipografía del libro*/
+    --MainFont: 'Fira Sans', sans-serif; /*Aqui puedes poner la tipografía del libro*/
     --MainText: 1.8rem; /*Aquí cambias el tamaño del texto*/
     --MainLineHeight: 2.9rem; /*Aquí se cambia el interlineado*/
 }
