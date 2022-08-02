@@ -1078,7 +1078,21 @@ a:hover, a:active, a:focus {
 	--colorppal: #13ad88;
 }
 
+.coursetag_telc_beruf {
+	--colorppal: #004e83;
+}
 
+.coursetag_telc_alphabetisierung {
+	--colorppal: #027b91;
+}
+
+.coursetag_telc_integration {
+	--colorppal: #f18927;
+}
+
+.coursetag_telc_allgemein {
+	--colorppal: #a91411;
+}
 
 
 
