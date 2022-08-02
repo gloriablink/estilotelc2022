@@ -1072,6 +1072,16 @@ a:hover, a:active, a:focus {
 }
 
 
+/*-----------Coursetags------------*/
+
+.coursetag_telc_Hochschule{
+	--colorppal: #007133;
+}
+
+
+
+
+
 /*-----------Cambios en plantilla test------------*/
 
 #actividad .workspace.test .respuestas li {
